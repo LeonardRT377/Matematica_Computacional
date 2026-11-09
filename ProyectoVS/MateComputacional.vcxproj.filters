@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Modelo">
+      <UniqueIdentifier>{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algoritmos">
+      <UniqueIdentifier>{B2C3D4E5-F6A7-8901-BCDE-F12345678901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visual">
+      <UniqueIdentifier>{C3D4E5F6-A7B8-9012-CDEF-123456789012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controlador">
+      <UniqueIdentifier>{D4E5F6A7-B8C9-0123-DEFA-234567890123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{E5F6A7B8-C9D0-1234-EFAB-345678901234}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Codigo\MateComputacional.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Codigo\UI\ConfiguracionForm.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codigo\UI\EditorGrafoForm.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codigo\UI\SeleccionForm.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codigo\UI\EjecucionForm.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codigo\UI\ResultadoForm.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codigo\Modelo\Vertice.h">
+      <Filter>Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codigo\UI\TemaVisual.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codigo\Modelo\Arista.h">
+      <Filter>Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codigo\Modelo\AristaResidual.h">
+      <Filter>Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codigo\Modelo\Grafo.h">
+      <Filter>Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codigo\Modelo\PasoAlgoritmo.h">
+      <Filter>Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codigo\Modelo\ResultadoCorte.h">
+      <Filter>Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codigo\Algoritmos\ValidadorGrafo.h">
+      <Filter>Algoritmos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codigo\Algoritmos\GeneradorGrafo.h">
+      <Filter>Algoritmos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codigo\Algoritmos\FordFulkerson.h">
+      <Filter>Algoritmos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codigo\Algoritmos\CorteMinimo.h">
+      <Filter>Algoritmos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codigo\Algoritmos\TransformadorFlujo.h">
+      <Filter>Algoritmos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codigo\Visual\GrafoVisual.h">
+      <Filter>Visual</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codigo\Controlador\AppState.h">
+      <Filter>Controlador</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Codigo\Controlador\Logica.h">
+      <Filter>Controlador</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="..\Codigo\UI\ConfiguracionForm.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Codigo\UI\EditorGrafoForm.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Codigo\UI\SeleccionForm.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Codigo\UI\EjecucionForm.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\Codigo\UI\ResultadoForm.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
